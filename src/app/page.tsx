@@ -1,4 +1,4 @@
-import Image from "next/image";
+/*import Image from "next/image";
 
 export default function Home() {
   return (
@@ -96,6 +96,18 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+    </div>
+  );
+}
+*/
+import HeroSection from "./components/HeroSection";
+
+export default function Home() {
+  return (
+    <div>
+      <main>{/* Aqui el contenido de otras secciones */ <HeroSection />}</main>
+
+      {/* Aqui el contenido de otras secciones */}
     </div>
   );
 }
