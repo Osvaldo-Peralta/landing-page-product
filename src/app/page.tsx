@@ -101,11 +101,18 @@ export default function Home() {
 }
 */
 import HeroSection from "./components/HeroSection";
+import Benefits from "./components/pages/Benefits";
+import Testimonials from "./components/pages/Testimonials";
 
 export default function Home() {
   return (
     <div>
-      <main>{/* Aqui el contenido de otras secciones */ <HeroSection />}</main>
+      <main>
+        {/* Aqui el contenido de otras secciones */}
+        <HeroSection />
+        <Benefits />
+        <Testimonials />
+      </main>
 
       {/* Aqui el contenido de otras secciones */}
     </div>
