@@ -102,6 +102,7 @@ export default function Home() {
 */
 import HeroSection from "./components/HeroSection";
 import Benefits from "./components/pages/Benefits";
+import Pricing from "./components/pages/Pricing";
 import Testimonials from "./components/pages/Testimonials";
 
 export default function Home() {
@@ -111,6 +112,7 @@ export default function Home() {
         {/* Aqui el contenido de otras secciones */}
         <HeroSection />
         <Benefits />
+        <Pricing />
         <Testimonials />
       </main>
 
