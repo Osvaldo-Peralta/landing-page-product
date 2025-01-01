@@ -104,6 +104,8 @@ import HeroSection from "./components/HeroSection";
 import Benefits from "./components/pages/Benefits";
 import Pricing from "./components/pages/Pricing";
 import Testimonials from "./components/pages/Testimonials";
+import Features from "./components/pages/Features";
+import ContactForm from "./components/pages/ContactForm";
 
 export default function Home() {
   return (
@@ -113,7 +115,9 @@ export default function Home() {
         <HeroSection />
         <Benefits />
         <Pricing />
+        <Features />
         <Testimonials />
+        <ContactForm />
       </main>
 
       {/* Aqui el contenido de otras secciones */}
