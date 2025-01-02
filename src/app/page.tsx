@@ -101,11 +101,12 @@ export default function Home() {
 }
 */
 import HeroSection from "./components/HeroSection";
-import Benefits from "./components/pages/Benefits";
-import Pricing from "./components/pages/Pricing";
-import Testimonials from "./components/pages/Testimonials";
-import Features from "./components/pages/Features";
-import ContactForm from "./components/pages/ContactForm";
+import Benefits from "./components/Benefits";
+//import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
+//import Features from "./components/Features";
+//import ContactForm from "./components/ContactForm";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
@@ -114,10 +115,11 @@ export default function Home() {
         {/* Aqui el contenido de otras secciones */}
         <HeroSection />
         <Benefits />
-        <Pricing />
-        <Features />
+        {/* <Pricing /> */}
+        {/*<Features />*/}
         <Testimonials />
-        <ContactForm />
+        <FAQ />
+        {/*<ContactForm />*/}
       </main>
 
       {/* Aqui el contenido de otras secciones */}

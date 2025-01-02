@@ -1,4 +1,5 @@
 // Importamos los módulos necesarios
+"use client"; // Necesario para manejar el estado en un componente de Next.js | Indica que el archivo se ejecutará en el cliente
 import React from "react";
 
 // Componente funcional Navbar
@@ -11,30 +12,20 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo o nombre de la marca */}
           <div className="text-2xl font-bold">
-            <a href="#">Producto</a>
+            <a href="#">Producto Digital</a>
           </div>
 
           {/* Links de navegación */}
           <div className="hidden md:flex space-x-4">
             {/* Cambia los # por los IDs de las secciones */}
-            <a href="#features" className="hover:text-gray-200">
+            <a href="/features" className="hover:text-gray-200">
               Características
             </a>
-            <a href="#about" className="hover:text-gray-200">
-              Sobre Nosotros
+            <a href="/pricing" className="hover:text-gray-200">
+              Precio
             </a>
-            <a href="#contact" className="hover:text-gray-200">
+            <a href="/contact" className="hover:text-gray-200">
               Contacto
-            </a>
-          </div>
-
-          {/* Botón de acción principal */}
-          <div>
-            <a
-              href="#cta"
-              className="bg-white text-blue-600 px-4 py-2 rounded-md font-medium hover:bg-gray-200"
-            >
-              Comienza Ahora
             </a>
           </div>
         </div>

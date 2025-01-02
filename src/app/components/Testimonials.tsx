@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import profile from "../../images/blank-profile-picture.png";
+import profile from "../images/blank-profile-picture.png";
 
 const Testimonials = () => {
   const testimonials = [
@@ -53,7 +53,7 @@ const Testimonials = () => {
                 {testimonial.name}
               </h3>
               <p className="text-gray-600 mt-2"> {testimonial.feedback} </p>
-              {/* Puntuación con estrellas */} 
+              {/* Puntuación con estrellas */}
               <div className="flex justify-center mt-4">
                 {[...Array(5)].map((_, starIndex) => (
                   <svg
